@@ -31,6 +31,7 @@ def main():
         
 
     def is_palindrome_recursive(s,o):
+        
         if o == 1: 
             working_list = [x.lower() for x in s if x.isalpha()]
         elif o == 2:
@@ -59,8 +60,6 @@ def main():
 
 
 
-
-
 ## User input here
 
     s = input("Enter your word to find out if it is a palindrome: ")
@@ -86,18 +85,10 @@ def main():
     except Exception as e:
         print(e)
 
-    # else:
-    #     print(f'DEBUG INFO = Option chosen = {o}')
-    #     fail = isinstance(o, int)
-    #     print(f'DEBUG INFO = Is Option an INT = {fail}')
-    #     raise Exception("Something went terribly wrong.")
 
 
 ## fun ascii art
 ########################
-
-    
-
 
 
     true_art = '''
@@ -127,8 +118,6 @@ def main():
     '''
 
 ##################
-
-
 
 
 ##answer return
