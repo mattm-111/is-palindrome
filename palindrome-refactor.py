@@ -41,9 +41,9 @@ def main():
         elif o == 4:
             working_list = [x for x in s if x.isalpha()]
         elif o == 5:
-            working_list = [x.lower() for x in s.strip()]
+            working_list = [x.lower() for x in s.replace(" ","")]
         elif o == 6:
-            working_list = [x for x in s.strip()]
+            working_list = [x for x in s.replace(" ","")]
         elif o == 7:
             working_list = [x for x in s]
         else:
